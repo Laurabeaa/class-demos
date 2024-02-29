@@ -1,0 +1,76 @@
+/* This is a comment! */
+
+body {
+    color: black;
+}
+
+/*figcaption {
+    color: red;
+}*/
+
+/*section {
+    color: red;
+}*/
+
+/*#etymology {
+    color: red;
+}*/
+
+/*.alt-row {
+    color: red;
+}*/
+
+/*h1, 
+h2, 
+h3, 
+h4 {
+    color: red;
+}*/
+
+nav li {
+    color: red;
+}
+
+footer small{
+    color: red;
+}
+
+#volcanic-features figure p {
+    color: red;
+}
+
+/*p > strong{
+    color: red;
+}*/
+
+/*ul > li {
+    color: red;
+}*/
+
+/*[datetime] {
+    color: red;
+}*/
+
+/*[datetime="2017"] {
+    color: red;
+}*/
+
+/*[datetime^="19"] {
+    color: red;
+}*/
+
+/*p::first-line {
+    color: red;
+}*/
+
+/*p::first-letter {
+    color: red;
+}*/
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
