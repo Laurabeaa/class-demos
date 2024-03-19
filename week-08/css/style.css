@@ -1,10 +1,48 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@900&display=swap');
 
+body {
+  color: black;
+  font-family:"Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.attribution {
+  text-align: right;
 }
 
 
+a,
+a:link {
+  color:#4876ba;
+  text-decoration: none;
+}
 
+a:visited {
+  background-color: #eee;
+  color: rgb(14 , 189, 75);
+  text-decoration: underline;
+}
 
+a:active{
+  color: rgba(14, 189, 75, .5)
+}
+
+p{
+  line-height: 1.25;
+}
+
+h1,
+h2 {
+  font-family: "Roboto slab", "Helvetica", "Arial", sans-serif;
+  font-weight: 900;
+
+}
 
 /* ignore these rules ... for now :) */
 
