@@ -2,6 +2,37 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
 }
 
+/*#box {
+  background-color: #ddd;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px
+}
+  */
+ 
 #box {
+  /*background-color: #ddd;
+  margin-top: 30px; */
   
+ /*border-top: 1px solid #222;
+ border-right: 2px dotted #f00 ;
+ border-bottom: 3px dashed #0f0;
+ border-left: 4px groove #00f;*/
+
+ border: 3px dotted #222;
+ /*padding: 20px;*/
+ /*max-width: 960px; /*60 characters x 16 pixels = 960*/
+ /*min-width: 500px;*/
+
+ /* margin: 0 auto;* */
+ 
+ width: 300px;
+ height: 300px;
+ overflow: auto;
+}
+
+/* making margin uniform around a paragraph; removing default margins*/
+p{
+  margin: 0;
 }
