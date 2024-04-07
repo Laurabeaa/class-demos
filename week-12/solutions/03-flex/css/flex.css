@@ -1,6 +1,12 @@
 main {
   border: 2px dotted #222;
   min-height: 200px;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap-reverse; */
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #red,
@@ -42,7 +48,6 @@ main {
 #blue {
   border-color: rgb(0,30,245);
   background-color: rgba(0,30,245,0.5);
-  font-size: 16px;
 }
 
 #purple {
