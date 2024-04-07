@@ -8,4 +8,11 @@ main {
   border: 2px solid rgb(255,0,0);
   width: 100px;
   height: 100px;
+
+  float: left;
+  margin-right: 15px;
+}
+
+.clear {
+  clear: left;
 }
