@@ -36,3 +36,15 @@
 .grid div:nth-of-type(2n) {
   background-color: rgba(12,71,162,0.6);
 }
+
+
+@media (max-width: 414px) {
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "masthead"
+    "articke"
+    "sidebar"
+    "footer";
+  }
+}
